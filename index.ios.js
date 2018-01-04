@@ -53,21 +53,22 @@ export default class MyApp extends Component {
     };
     let textValue = 'hello world'
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome zhoujun!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Blink text="Look at me"/>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-        <Greeting style={styles.instructions} value={textValue}/>
-        <Picture pic={pic} />
-      </View>
+      // <View style={styles.container}>
+      //   <Text style={styles.welcome}>
+      //     Welcome zhoujun!
+      //   </Text>
+      //   <Text style={styles.instructions}>
+      //     To get started, edit index.ios.js
+      //   </Text>
+      //   <Blink text="Look at me"/>
+      //   <Text style={styles.instructions}>
+      //     Press Cmd+R to reload,{'\n'}
+      //     Cmd+D or shake for dev menu
+      //   </Text>
+      //   <Greeting style={styles.instructions} value={textValue}/>
+      //   <Picture pic={pic} />
+      // </View>
+      <Text>hello</Text>
     );
   }
 }
